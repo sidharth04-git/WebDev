@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    border: solid;
+    color: rgb(0, 0, 0);
+    text-decoration: #ff0000 wavy underline;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: avant garde, didot, sans-serif;
+}h2{
+    text-align: center;
+    color: red;
+    font-weight: normal;
+    text-decoration: blue dotted overline;
+}
+h3{
+    text-align: center;
+    text-decoration: brown double line-through;
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 2.5;
+    font-size: 15px;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

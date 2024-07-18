@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2><u>Doctor's Appointment Request Form</u></h2>
+        <p>Fill the form below and submit it.</p>
+    </header>
+    <form action="/server"></form>
+        <div>
+                <label for="name"><b>Name</b></label>
+                <br><br>
+                <input type="text" name="fname" id="name" placeholder="First Name">  &nbsp;
+                <input type="text" name="lname" id="name" placeholder="Last Name">
+        </div>
+        <br>
+        <div>
+            <label for="dob"><b>Date of Birth</b></label>
+            <br><br>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="gender"><b>Gender</b></label>
+            <br><br>
+            <select name="gender" id="gender">
+                <option selected>Please Sekect</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="oth">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="add"><b>Address</b></label>
+            <br><br>
+            <textarea name="add" id="add" cols="70"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="mail"><b>Email</b></label>
+            <br><br>
+            <input type="email" name="mail" id="mail" placeholder="ex:myname@example.com">
+        </div>
+        <br>
+        <div>
+            <label><b>Have you ever applied to our facility before?</b></label>
+            <br><br>
+            <input type="radio" name="info" value="yes" id="100">
+            <label for="100">Yes</label>
+            <input type="radio" name="info" value="no" id="101">
+            <label for="101">No</label>
+        </div>
+        <br>
+        <div>
+            <label for="dept"><b>Which department would you like to get an appoinment from?</b></label>
+            <br><br>
+            <input type="text" name="dept" id="dept" placeholder="ex: OPD">
+        </div>
+        <br>
+        <div>
+            <label for="issue"><b>Write Your Issue Here</b></label>
+            <br><br>
+            <textarea name="issue" id="isse" placeholder="Write Here!"></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
