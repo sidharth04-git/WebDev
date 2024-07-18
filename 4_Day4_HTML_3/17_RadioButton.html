@@ -1,0 +1,28 @@
+<!-- Jab Bhi Radio Button ka group hota hai usme se ek hi hum select kar skte hai value -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <form action="/action">
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">Mango</label>
+            <input type="radio" name="fruit" id="orange" value="orange">
+            <label for="fruit">Orange</label>
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+            <!-- /action?fruit=apple -->
+             
+            <!-- name attribute ko same kr dege mtlb multiple radio button ko group kr diye hai aur fruit ki
+            ek hi value ho sakti hai jo URL ke andar jayega -->
+        </div>
+    </form>
+ </body>
+ </html>
